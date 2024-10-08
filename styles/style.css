@@ -10,7 +10,7 @@
 }
 
 /* shared styles */
-.btn-primary{
+.btn-primary {
     font-size: 20px;
     font-weight: 600;
     background-color: #52C303;
@@ -59,4 +59,50 @@ header {
     font-size: 18px;
     opacity: 70%;
     margin-bottom: 30px;
+}
+
+/* card section styles */
+.favorite-section {
+    width: 366px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.favorite-title {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.cards-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 80px 50px;
+    gap: 50px;
+}
+
+.food-card .card-content h4 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.food-card .card-content h3 {
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.food-card .card-content p {
+    opacity: 70%;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.food-card .card-content{
+    text-align: center;
+}
+
+.card-img img{
+    width: 100%;
 }
