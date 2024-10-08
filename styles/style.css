@@ -1,3 +1,62 @@
-h1{
-    color: red;
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.work-sans {
+    font-family: "Work Sans", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* shared styles */
+.btn-primary{
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #52C303;
+    color: white;
+    padding: 20px 30px;
+    border-radius: 8px;
+    border: 0;
+    cursor: pointer;
+}
+
+/* header styles */
+header {
+    height: 490px;
+    background-image: linear-gradient(0deg, rgb(16, 16, 16) -19.5%, rgba(16, 16, 16, 0) 100%), url("../assets/hero-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-content {
+    width: 530px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.subtitle {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    line-height: 38px;
+    margin-bottom: 18px;
+}
+
+.banner-title {
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    margin-bottom: 24px;
+}
+
+.banner-description {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    opacity: 70%;
+    margin-bottom: 30px;
 }
